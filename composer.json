@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "4.0.0",
+        "slim/psr7": "^0.5.0",
+        "vlucas/phpdotenv": "^3.4",
+        "grpc/grpc": "^v1.1.0",
+        "google/protobuf": "^v3.3.0",
+        "google/cloud-firestore": "^1.7",
+        "ahsankhatri/firestore-php": "^2.0",
+        "kreait/firebase-php": "^4.29",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
