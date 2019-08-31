@@ -44,7 +44,7 @@ $app->post('/forgotPassword', function(Request $request, Response $response){
     $fail = json_encode($fail);
 
     $response->getBody()->write($fail);
-    return $response;
+    return $response->withHeader('Content-Type', 'application/json');;
   }
 
   try {
@@ -69,7 +69,7 @@ $app->post('/forgotPassword', function(Request $request, Response $response){
     $fail = json_encode($fail);
 
     $response->getBody()->write($fail);
-    return $response;
+    return $response->withHeader('Content-Type', 'application/json');
   }
 });
 
@@ -139,7 +139,7 @@ $app->post('/createUser', function(Request $request, Response $response){
     $fail = json_encode($fail);
 
     $response->getBody()->write($fail);
-    return $response;
+    return $response->withHeader('Content-Type', 'application/json');
   }
 
 });

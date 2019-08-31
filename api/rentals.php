@@ -173,6 +173,7 @@ $app->post('/alquileres', function(Request $request, Response $response){
     foreach ($rentalsRef as $document) {
       if ($document->exists()) {
         $data = $document->data();
+        unset($data['uid']);
         $docs_arg[$i] = $data;
         $i++;
       }
@@ -243,6 +244,7 @@ $app->post('/alquileres/user', function(Request $request, Response $response){
     foreach ($rentalsRef as $document) {
       if ($document->exists()) {
         $data = $document->data();
+        unset($data['uid']);
         $docs_arg[$document->id()] = $data;
       }
     }

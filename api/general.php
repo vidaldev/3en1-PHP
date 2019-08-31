@@ -13,6 +13,6 @@ $app->get('/', function(Request $request, Response $response) {
   );
   $data = json_encode($arg);
   $response->getBody()->write($data);
-  return $response;
+  return $response->withHeader('Content-Type', 'application/json');
 });
 

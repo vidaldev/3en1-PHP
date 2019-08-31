@@ -92,6 +92,6 @@ class validator
 
       $response = new Response();
       $response->getBody()->write($existingContent);
-      return $response;
+      return $response->withHeader('Content-Type', 'application/json');
     }
 }
