@@ -10,6 +10,9 @@ Este repositorio pertenece a un **reto** que consiste en construir la misma apli
 
 Link del reto [aqui](https://platzi.com/blog/platziretos-3-languages-challenge/)
 
+### :trophy: Puesto clasificatorio: 
+
+**3er lugar** :medal_military: ([resultados aquí](https://github.com/juandc/3-languages-challenge))
 
 ## Descripción
 
