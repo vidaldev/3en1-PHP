@@ -10,7 +10,7 @@ Este repositorio pertenece a un **reto** que consiste en construir la misma apli
 
 Link del reto [aqui](https://platzi.com/blog/platziretos-3-languages-challenge/)
 
-### :trophy: Puesto clasificatorio: 
+## :trophy: Puesto clasificatorio
 
 **3er lugar** :medal_military: ([resultados aquí](https://github.com/juandc/3-languages-challenge))
 
@@ -125,6 +125,16 @@ Para este proyecto, una vez hecho los pasos anteriores, es necesario activar el 
 > extension=grpc.so
 
 * Ya en el composer.json se encuentra requerido
+
+### 🛠️ Pruebas
+
+Para correr las pruebas basta con situarse en el directorio del proyecto y ejecutar
+
+```bash
+~$ php -S localhost:8080
+```
+
+El servidor de prueba estaría corriendo en el puerto `8080`
 
 ### ⚙️ Uso / metodos / parametros
 
