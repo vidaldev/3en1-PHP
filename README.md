@@ -86,7 +86,6 @@ Para saber la version del composer:
 Composer 1.6.3 2018-01-31 16:28:17
 ```
 
-
 ### 🔧 Instalación
 
 Localizamos el directorio donde deseamos bajar este repositorio y ejecutamos lo siguiente:
@@ -95,7 +94,7 @@ Localizamos el directorio donde deseamos bajar este repositorio y ejecutamos lo 
 ~$ git clone git@github.com:vidaldev/3en1-PHP.git
 ```
 
-O bien puedes hacer un fork en caso de tu poseer una cuenta github (acepto mejoras de código). Luego de esto ingresa a la carpeta:
+Puedes hacer un fork en caso de tu poseer una cuenta github (acepto mejoras de código). Luego de esto ingresa a la carpeta:
 
 ```bash
 ~$ cd 3en1-PHP
