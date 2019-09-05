@@ -24,11 +24,11 @@ En el caso de **PHP** explicaremos como hacer que funcione en nuestra local.
 
 Para este proyecto se usaron las siguientes versiones con los siguientes modulos/plugins:
 
-![](https://img.shields.io/badge/_Composer_-1.6.3-blue)
+![composer](https://img.shields.io/badge/_Composer_-1.6.3-blue?style=for-the-badge)
 
-![](https://img.shields.io/badge/PHP_version-7.2.19-blue)
+![php](https://img.shields.io/badge/PHP_version-7.2.19-blue?style=for-the-badge)
 
-![](https://img.shields.io/badge/Ubuntu_LTS-18.04.3-blue)
+![ubuntu](https://img.shields.io/badge/Ubuntu_LTS-18.04.3-blue?style=for-the-badge)
 
 * php7.2-curl
 * php7.2-xml
