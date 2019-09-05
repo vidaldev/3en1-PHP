@@ -151,15 +151,8 @@ Para todos los request de manera obligatoria deben ir el correo y la contraseña
 | Listar todos los alquileres             | /alquileres      |  POST  | email, password, filtro (entregado, pendiente o todo)                                             |
 | Listar todos los alquileres del usuario | /alquileres/user |  POST  | email, password, filtro (entregado, pendiente o todo)                                             |
 
-
 ### ✔️ Para recordar
 
 No olvides configurar el archivo `.env` y descargar el `ServiceAccountKey.json` de tu cuenta **firebase**
 
 ---
-
-## 🎁 Expresiones de Gratitud
-
-Si esta información te ha servido de algo puedes agradecermelo con un café ✌️
-
-[![Buy Me A Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png)](https://www.buymeacoffee.com/38VZtiLPJ)
